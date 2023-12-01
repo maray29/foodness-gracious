@@ -4,10 +4,9 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import LoconativeScroll from 'loconative-scroll';
 import Swiper from 'swiper';
 
-function init() {
-  console.log('hello');
-  gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger);
 
+function init() {
   // let scroll = initSmoothScroll();
   initSmoothScroll();
 
