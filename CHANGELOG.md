@@ -1,5 +1,12 @@
 # @maray-ai/foodness-gracious
 
+## 0.0.2
+
+### Patch Changes
+
+- 871fba4: fix gsap import
+- 1f2b6d1: add swiper and gsap
+
 ## 0.0.1
 
 ### Patch Changes
