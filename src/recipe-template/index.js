@@ -5,7 +5,8 @@ function init() {
   console.log('hello');
   gsap.registerPlugin(ScrollTrigger);
 
-  let scroll = initSmoothScroll();
+  // let scroll = initSmoothScroll();
+  initSmoothScroll();
 
   gsap.to('.page-wrapper', {
     autoAlpha: 1,
