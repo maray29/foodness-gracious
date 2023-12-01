@@ -6,6 +6,7 @@ import Swiper from 'swiper';
 import { Navigation, Pagination } from 'swiper/modules';
 
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
+
 function init() {
   initSmoothScroll();
 
@@ -17,6 +18,7 @@ function init() {
   // createAndAnimateConceptAsset();
   animateOnScroll();
   conceptSectionScrollTo();
+  animateNav();
 }
 
 // Home header intro animation
@@ -333,6 +335,22 @@ function initSmoothScroll() {
   ScrollTrigger.refresh();
 
   return scroll;
+}
+
+function animateNav() {
+  gsap.set('.nav', {
+    backgroundColor: 'rgba(255, 246, 242, 0)',
+  });
+  gsap.to('.nav', {
+    backgroundColor: 'rgba(255, 246, 242, 1)',
+    scrollTrigger: {
+      trigger: '.nav',
+      start: 'clamp(top top)',
+      end: '+200px',
+      scrub: 1.5,
+      toggleActions: 'play reverse play reverse',
+    },
+  });
 }
 
 function createAndAnimateConceptAsset() {
