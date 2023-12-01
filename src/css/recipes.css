@@ -1,0 +1,131 @@
+.section_header_illu-wrap {
+  /* container-type: inline-size; */
+  container-type: size;
+}
+.recipes_veg-2 {
+  width: 26cqi;
+  top: 66cqh;
+  left: 23cqi;
+}
+.recipes_veg-3 {
+  width: 18cqi;
+  top: 0cqh;
+  left: 94cqi;
+}
+.recipes_veg-4 {
+  width: 12cqi;
+  top: 4cqh;
+  left: 27cqi;
+}
+.recipes_veg-6 {
+  width: 5cqi;
+  top: 2cqh;
+  left: 15cqi;
+}
+.recipes_veg-7 {
+  width: 7cqi;
+  top: 36cqh;
+  left: 42cqi;
+}
+.recipes_veg-9 {
+  width: 16cqi;
+  top: 4cqh;
+  left: 39cqi;
+}
+.recipes_veg-10 {
+  width: 5cqi;
+  top: 3cqh;
+  left: 67cqi;
+}
+.recipes_veg-11 {
+  width: 6cqi;
+  top: 73cqh;
+  left: 66cqi;
+}
+
+@media (max-width: 991px) {
+  .recipes_veg-2 {
+    width: 35cqi;
+    top: 77cqh;
+    left: 23cqi;
+  }
+  .recipes_veg-3 {
+    width: 28cqi;
+    top: 3cqh;
+    left: 91cqi;
+  }
+  .recipes_veg-4 {
+    width: 16cqi;
+    top: 1cqh;
+    left: 69cqi;
+  }
+  .recipes_veg-6 {
+    width: 7cqi;
+    top: 1cqh;
+    left: 15cqi;
+  }
+  .recipes_veg-7 {
+    width: 10cqi;
+    top: 65cqh;
+    left: 52cqi;
+  }
+  .recipes_veg-9 {
+    width: 25cqi;
+    top: 23cqh;
+    left: 71cqi;
+  }
+  .recipes_veg-10 {
+    width: 8cqi;
+    top: 5cqh;
+    left: 50cqi;
+  }
+  .recipes_veg-11 {
+    width: 10cqi;
+    top: 55cqh;
+    left: 87cqi;
+  }
+}
+
+/* Portrait */
+@media (max-width: 478px) {
+  .recipes_veg-2 {
+    width: 49cqi;
+    top: 84cqh;
+    left: 50cqi;
+  }
+  .recipes_veg-3 {
+    width: 50cqi;
+    top: 1cqh;
+    left: 87cqi;
+  }
+  .recipes_veg-4 {
+    width: 32cqi;
+    top: 5cqh;
+    left: 48cqi;
+  }
+  .recipes_veg-6 {
+    width: 14cqi;
+    top: -2cqh;
+    left: -9cqi;
+  }
+  .recipes_veg-7 {
+    width: 14cqi;
+    top: 39cqh;
+    left: 83cqi;
+  }
+  .recipes_veg-9 {
+    width: 40cqi;
+    top: 17cqh;
+    left: 64cqi;
+  }
+  .recipes_veg-10 {
+    width: 14cqi;
+    top: -1cqh;
+    left: 34cqi;
+  }
+  .recipes_veg-11 {
+    width: 14cqi;
+    top: 5cqh;
+    left: 16cqi;
+  }
+}

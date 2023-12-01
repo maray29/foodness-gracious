@@ -1,0 +1,354 @@
+.home-header_illu-wrap,
+.home-header_content {
+  container-type: size;
+}
+.home-header_brand {
+  font-size: 9cqi;
+}
+.home-header_subheading {
+  font-size: 2.5cqi;
+}
+.home-header_chefs-hat {
+  width: 18cqi;
+  margin-left: -28cqi;
+  margin-bottom: -4cqh;
+}
+.veg-1 {
+  width: 25cqi;
+  top: 55cqh;
+  left: -11cqi;
+}
+.veg-2 {
+  width: 26cqi;
+  top: 66cqh;
+  left: 79cqi;
+}
+.veg-3 {
+  width: 22cqi;
+  top: 15cqh;
+  left: -8cqi;
+}
+.veg-4 {
+  width: 12cqi;
+  top: 42cqh;
+  left: 10cqi;
+}
+.veg-5 {
+  width: 14cqi;
+  top: 10cqh;
+  left: 13cqi;
+}
+.veg-6 {
+  width: 8cqi;
+  top: -2cqh;
+  left: 10cqi;
+}
+.veg-7 {
+  width: 10cqi;
+  top: 16cqh;
+  left: 93cqi;
+}
+.veg-8 {
+  width: 12cqi;
+  top: 10cqh;
+  left: 47cqi;
+}
+.veg-9 {
+  width: 16cqi;
+  top: 20cqh;
+  left: 59cqi;
+}
+.veg-10 {
+  width: 7cqi;
+  top: 31cqh;
+  left: 78cqi;
+}
+.veg-11 {
+  width: 8cqi;
+  top: 42cqh;
+  left: 88cqi;
+}
+.veg-12 {
+  width: 7cqi;
+  top: 38cqh;
+  left: 67cqi;
+}
+
+/* Review section */
+.home-reviews_illu-wrap {
+  container-type: size;
+}
+.home_device-1 {
+  width: 30cqi;
+  top: 22cqh;
+  left: 0cqi;
+}
+.home_device-2 {
+  width: 20cqi;
+  top: 11cqh;
+  left: 50cqi;
+}
+.home_device-3 {
+  width: 17cqi;
+  top: 36cqh;
+  left: 73cqi;
+}
+.home_device-4 {
+  width: 21cqi;
+  top: 69cqh;
+  left: 21cqi;
+}
+
+.home_device-5 {
+  width: 29cqi;
+  top: 64cqh;
+  left: 68cqi;
+}
+
+@media (max-width: 991px) {
+  /* header */
+  .home-header_brand {
+    font-size: 12cqi;
+  }
+  .home-header_subheading {
+    font-size: 4cqi;
+  }
+  .home-header_chefs-hat {
+    width: 18cqi;
+    margin-left: -30cqi;
+    margin-bottom: -3cqh;
+  }
+  .veg-1 {
+    width: 30cqi;
+    top: 55cqh;
+    left: -11cqi;
+  }
+  .veg-2 {
+    width: 32cqi;
+    top: 66cqh;
+    left: 80cqi;
+  }
+  .veg-3 {
+    width: 28cqi;
+    top: 22cqh;
+    left: -14cqi;
+  }
+  .veg-4 {
+    width: 16cqi;
+    top: 42cqh;
+    left: 0cqi;
+  }
+  .veg-5 {
+    width: 18cqi;
+    top: 16cqh;
+    left: 7cqi;
+  }
+  .veg-6 {
+    width: 8cqi;
+    top: 2cqh;
+    left: 10cqi;
+  }
+  .veg-7 {
+    width: 10cqi;
+    top: 16cqh;
+    left: 93cqi;
+  }
+  .veg-8 {
+    width: 10cqi;
+    top: 23cqh;
+    left: 47cqi;
+  }
+  .veg-9 {
+    width: 21cqi;
+    top: 24cqh;
+    left: 63cqi;
+  }
+  .veg-10 {
+    width: 7cqi;
+    top: 33cqh;
+    left: 83cqi;
+  }
+  .veg-11 {
+    width: 8cqi;
+    top: 42cqh;
+    left: 96cqi;
+  }
+  .veg-12 {
+    width: 7cqi;
+    top: 39cqh;
+    left: 74cqi;
+  }
+
+  /* Review section */
+  .home_device-1 {
+    width: 25cqi;
+    top: 15cqh;
+    left: 0cqi;
+  }
+  .home_device-2 {
+    top: -2cqh;
+    left: 51cqi;
+  }
+  .home_device-3 {
+    top: 32cqh;
+    left: 77cqi;
+  }
+  .home_device-4 {
+    width: 18cqi;
+    top: 72cqh;
+    left: 16cqi;
+  }
+
+  .home_device-5 {
+    width: 24cqi;
+    top: 71cqh;
+    left: 73cqi;
+  }
+}
+
+/* Portrait */
+@media (max-width: 478px) {
+  /* header */
+  .home-header_brand {
+    font-size: clamp(2rem, 16cqi, 3rem);
+  }
+  .home-header_subheading {
+    font-size: clamp(1rem, 4cqi, 1.5rem);
+  }
+  .home-header_chefs-hat {
+    width: clamp(3rem, 22cqi, 5rem);
+    margin-left: -22cqi;
+    margin-bottom: -2cqh;
+  }
+  .veg-1 {
+    width: 30cqi;
+    top: 55cqh;
+    left: -16cqi;
+  }
+  .veg-2 {
+    width: 32cqi;
+    top: 72cqh;
+    left: 80cqi;
+  }
+  .veg-3 {
+    width: 28cqi;
+    top: 19cqh;
+    left: -19cqi;
+  }
+  .veg-4 {
+    width: 19cqi;
+    top: 33cqh;
+    left: -8cqi;
+  }
+  .veg-5 {
+    width: 20cqi;
+    top: 16cqh;
+    left: 4cqi;
+  }
+  .veg-6 {
+    width: 8cqi;
+    top: 7cqh;
+    left: 30cqi;
+  }
+  .veg-7 {
+    width: 10cqi;
+    top: 35cqh;
+    left: 93cqi;
+  }
+  .veg-8 {
+    width: 15cqi;
+    top: 20cqh;
+    left: 52cqi;
+  }
+  .veg-9 {
+    width: 25cqi;
+    top: 22cqh;
+    left: 70cqi;
+  }
+  .veg-10 {
+    width: 7cqi;
+    top: 33cqh;
+    left: 83cqi;
+  }
+  .veg-11 {
+    width: 8cqi;
+    top: 55cqh;
+    left: 84cqi;
+  }
+  .veg-12 {
+    width: 7cqi;
+    top: 39cqh;
+    left: 74cqi;
+  }
+
+  /* Review section */
+  .home_device-1 {
+    width: 50cqi;
+    top: -66cqh;
+    left: -13cqi;
+  }
+  .home_device-2 {
+    width: 40cqi;
+    top: -37cqh;
+    left: 55cqi;
+  }
+  .home_device-4 {
+    width: 30cqi;
+    top: 92cqh;
+    left: -1cqi;
+  }
+
+  .home_device-5 {
+    width: 40cqi;
+    top: 107cqh;
+    left: 54cqi;
+  }
+}
+
+@media (max-width: 320px) {
+  .home-header_component {
+    aspect-ratio: 3 / 7.5;
+  }
+}
+
+/* Clouds */
+.responsibility-pillar_img-wrap {
+  /* container-type: inline-size; */
+  container-type: size;
+}
+
+.responsibility-pillar_cloud-1 {
+  width: 37cqi;
+  top: 27cqh;
+  left: -13cqi;
+}
+
+.responsibility-pillar_cloud-2 {
+  width: 39cqi;
+  top: 22cqh;
+  left: 1cqi;
+}
+
+.responsibility-pillar_cloud-3 {
+  width: 25cqi;
+  top: 32cqh;
+  left: 24cqi;
+}
+
+.responsibility-pillar_cloud-4 {
+  width: 30cqi;
+  top: 30cqh;
+  left: 50cqi;
+}
+
+.responsibility-pillar_cloud-5 {
+  width: 25cqi;
+  top: 31cqh;
+  left: 66cqi;
+}
+
+.responsibility-pillar_cloud-6 {
+  width: 36cqi;
+  top: 27cqh;
+  left: 73cqi;
+}

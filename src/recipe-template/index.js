@@ -1,8 +1,8 @@
-// recipe script
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import LoconativeScroll from 'loconative-scroll';
 import Swiper from 'swiper';
+import { Navigation, Pagination } from 'swiper/modules';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -117,6 +117,7 @@ function createCopyButton() {
 window.Webflow ||= [];
 window.Webflow.push(() => {
   const mySwiper = new Swiper('.swiper', {
+    modules: [Navigation, Pagination],
     slidesPerView: 4,
     // slidesPerGroup: 1,
     spaceBetween: 16,

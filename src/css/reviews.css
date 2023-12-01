@@ -1,0 +1,70 @@
+.section_header_illu-wrap {
+  container-type: size;
+}
+.reviews_device-1 {
+  width: 20cqi;
+  top: 48cqh;
+  left: 25cqi;
+}
+.reviews_device-2 {
+  width: 14cqi;
+  top: 2cqh;
+  left: 24cqi;
+}
+.reviews_device-3 {
+  width: 11cqi;
+  top: 4cqh;
+  left: 58cqi;
+}
+.reviews_device-4 {
+  width: 20cqi;
+  top: 80cqh;
+  left: 68cqi;
+}
+
+@media (max-width: 991px) {
+  .reviews_device-1 {
+    width: 32cqi;
+    top: 72cqh;
+    left: 5cqi;
+  }
+  .reviews_device-2 {
+    width: 22cqi;
+    top: 1cqh;
+    left: 47cqi;
+  }
+  .reviews_device-3 {
+    width: 18cqi;
+    top: 34cqh;
+    left: 82cqi;
+  }
+  .reviews_device-4 {
+    width: 25cqi;
+    top: 83cqh;
+    left: 64cqi;
+  }
+}
+
+/* Portrait */
+@media (max-width: 478px) {
+  .reviews_device-1 {
+    width: 55cqi;
+    top: 82cqh;
+    left: -23cqi;
+  }
+  .reviews_device-2 {
+    width: 35cqi;
+    top: 3cqh;
+    left: 54cqi;
+  }
+  .reviews_device-3 {
+    width: 30cqi;
+    top: 21cqh;
+    left: 84cqi;
+  }
+  .reviews_device-4 {
+    width: 48cqi;
+    top: 90cqh;
+    left: 53cqi;
+  }
+}
