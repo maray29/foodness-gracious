@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/finsweet/foodness-gracious.git"
+    "url": "git+https://github.com/maray/foodness-gracious.git"
   },
   "bugs": {
-    "url": "https://github.com/marya/foodness-gracious/issues"
+    "url": "https://github.com/maray/foodness-gracious/issues"
   },
   "type": "module",
   "main": "src/index.ts",
