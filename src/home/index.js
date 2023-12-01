@@ -15,7 +15,6 @@ function init() {
   gsap.to('.page-wrapper', {
     autoAlpha: 1,
   });
-  // createAndAnimateConceptAsset();
   animateOnScroll();
   conceptSectionScrollTo();
   animateNav();
