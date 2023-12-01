@@ -1,5 +1,6 @@
 // recipe script
-import { gsap, ScrollTrigger } from 'gsap';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import LoconativeScroll from 'loconative-scroll';
 import Swiper from 'swiper';
 
