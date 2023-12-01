@@ -1,5 +1,5 @@
 ---
-'@finsweet/developer-starter': patch
+'@maray-ai/foodness-gracious': patch
 ---
 
 Repo test
