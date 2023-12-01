@@ -1,5 +1,11 @@
 # @maray-ai/foodness-gracious
 
+## 0.3.0
+
+### Minor Changes
+
+- 3e2cc1e: Bump version
+
 ## 0.2.0
 
 ### Minor Changes
