@@ -1,5 +1,12 @@
 # @maray-ai/foodness-gracious
 
+## 0.2.0
+
+### Minor Changes
+
+- 1d712d1: Added all files
+- b79d942: fix scrolltrigger
+
 ## 0.1.0
 
 ### Minor Changes
