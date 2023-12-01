@@ -41,11 +41,7 @@ function animateHomeHeaderOnLoad() {
   const headerButtons = document.querySelector('.home-header_buttons');
   const nav = document.querySelector('.nav');
 
-  const tl = gsap.timeline({
-    // onComplete: () => {
-    //   animateOnScroll();
-    // }
-  });
+  const tl = gsap.timeline();
   const duration = 1.0;
   const rotation = -35;
   const distance = generateDistributedArray(12, 'exponential', [15, 50], 1.5);
