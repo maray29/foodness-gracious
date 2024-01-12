@@ -1,5 +1,11 @@
 # @maray-ai/foodness-gracious
 
+## 1.0.0
+
+### Major Changes
+
+- 7c08973: Added Swiper CSS
+
 ## 0.4.0
 
 ### Minor Changes
