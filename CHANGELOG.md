@@ -1,5 +1,11 @@
 # @maray-ai/foodness-gracious
 
+## 2.0.0
+
+### Major Changes
+
+- 47e890b: Added modal popup functionality
+
 ## 1.0.0
 
 ### Major Changes
