@@ -5,6 +5,8 @@ import LoconativeScroll from 'loconative-scroll';
 import Swiper from 'swiper';
 import { Navigation, Pagination } from 'swiper/modules';
 
+import { createModal } from '$utils/modal';
+
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
 function init() {
@@ -18,6 +20,7 @@ function init() {
   animateOnScroll();
   conceptSectionScrollTo();
   animateNav();
+  createModal();
 }
 
 // Home header intro animation
