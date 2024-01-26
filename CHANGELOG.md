@@ -1,5 +1,15 @@
 # @maray-ai/foodness-gracious
 
+## 2.1.0
+
+### Minor Changes
+
+- 6b6446e: Added shop index.js
+
+### Patch Changes
+
+- 5f12159: Added shop index.js
+
 ## 2.0.0
 
 ### Major Changes
