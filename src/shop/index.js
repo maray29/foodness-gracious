@@ -14,7 +14,6 @@ function init() {
     duration: 0.5,
   });
 
-  animateNav();
   createModal();
 }
 
@@ -34,22 +33,6 @@ function initSmoothScroll() {
   });
 
   return scroll;
-}
-
-function animateNav() {
-  gsap.set('.nav', {
-    backgroundColor: 'rgba(37, 64, 57, 0)',
-  });
-  gsap.to('.nav', {
-    backgroundColor: 'rgba(37, 64, 57, 1)',
-    scrollTrigger: {
-      trigger: '.nav',
-      start: 'clamp(top top)',
-      end: '+200px',
-      scrub: 1.5,
-      toggleActions: 'play reverse play reverse',
-    },
-  });
 }
 
 window.addEventListener('DOMContentLoaded', () => {
