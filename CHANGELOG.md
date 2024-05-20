@@ -1,5 +1,33 @@
 # @maray-ai/foodness-gracious
 
+## 2.1.0
+
+### Minor Changes
+
+- 6b6446e: Added shop index.js
+
+### Patch Changes
+
+- 5f12159: Added shop index.js
+
+## 2.0.0
+
+### Major Changes
+
+- 47e890b: Added modal popup functionality
+
+## 1.0.0
+
+### Major Changes
+
+- 7c08973: Added Swiper CSS
+
+## 0.4.0
+
+### Minor Changes
+
+- 328dc35: added navbar animation
+
 ## 0.3.0
 
 ### Minor Changes

@@ -1,8 +1,13 @@
+import 'swiper/css';
+import 'swiper/css/navigation';
+
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import LoconativeScroll from 'loconative-scroll';
 import Swiper from 'swiper';
 import { Navigation, Pagination } from 'swiper/modules';
+
+import { createModal } from '$utils/modal';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -13,6 +18,8 @@ function init() {
   gsap.to('.page-wrapper', {
     autoAlpha: 1,
   });
+
+  createModal();
 }
 
 createCopyButton();

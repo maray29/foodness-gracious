@@ -15,7 +15,6 @@ function init() {
   });
 
   animateNav();
-  animateArticleDivider();
   createModal();
 }
 
@@ -50,22 +49,6 @@ function animateNav() {
       scrub: 1.5,
       toggleActions: 'play reverse play reverse',
     },
-  });
-}
-
-function animateArticleDivider() {
-  const articleDividers = document.querySelectorAll('.article_divider img');
-
-  articleDividers.forEach((divider) => {
-    gsap.to(divider, {
-      rotateZ: 180,
-      scrollTrigger: {
-        trigger: divider,
-        start: 'top bottom',
-        end: 'bottom top',
-        scrub: 1.25,
-      },
-    });
   });
 }
 

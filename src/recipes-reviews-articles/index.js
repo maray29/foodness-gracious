@@ -2,6 +2,8 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import LoconativeScroll from 'loconative-scroll';
 
+import { createModal } from '$utils/modal';
+
 gsap.registerPlugin(ScrollTrigger);
 
 function init() {
@@ -12,6 +14,7 @@ function init() {
   });
 
   animateOnScroll();
+  createModal();
 }
 
 // Home on scroll animations - parallax
