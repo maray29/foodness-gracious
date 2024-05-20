@@ -1,5 +1,11 @@
 # @maray-ai/foodness-gracious
 
+## 2.1.1
+
+### Patch Changes
+
+- 1493503: Removed Shop page navbar
+
 ## 2.1.0
 
 ### Minor Changes
