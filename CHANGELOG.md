@@ -1,5 +1,11 @@
 # @maray-ai/foodness-gracious
 
+## 2.2.1
+
+### Patch Changes
+
+- a751129: bug fixes
+
 ## 2.2.0
 
 ### Minor Changes
