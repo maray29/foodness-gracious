@@ -19,6 +19,7 @@ const ENTRY_POINTS = [
   'src/css/recipes.css',
   'src/css/reviews.css',
   'src/shop/index.js',
+  'src/sliders/sliders.js'
 ];
 
 // Config dev serving
