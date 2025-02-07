@@ -1,5 +1,11 @@
 # @maray-ai/foodness-gracious
 
+## 2.2.0
+
+### Minor Changes
+
+- 856fa4e: partner section and fixes
+
 ## 2.1.1
 
 ### Patch Changes
