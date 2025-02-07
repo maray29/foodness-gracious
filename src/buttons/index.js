@@ -37,7 +37,7 @@ function animateButtonLight(button) {
 
   button.addEventListener('mouseenter', () => {
     gsap.to(button, {
-      // color: 'white',
+      color: 'FFFBEF',
       backgroundColor: newBgColor,
       duration: duration,
     });

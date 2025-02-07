@@ -26,6 +26,7 @@ export function createPartnerRecipesSlider() {
     keyboard: true,
     centeredSlides: true,
     // loop: true,
+    rewind: true,
     grabCursor: true,
     allowTouchMove: true,
     speed: 1000,
@@ -57,7 +58,7 @@ export function createPartnerRecipesSlider() {
 }
 
 export function createEquipmentSlider() {
-  const equipmentSlider = document.querySelector('.partner-recipes_list-wrap.swiper');
+  const equipmentSlider = document.querySelector('.equipment_list-wrap.swiper');
 
   if (!equipmentSlider) return;
 
