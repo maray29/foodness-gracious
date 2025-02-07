@@ -7,7 +7,7 @@ import LoconativeScroll from 'loconative-scroll';
 import Swiper from 'swiper';
 import { Navigation, Pagination } from 'swiper/modules';
 
-import { createPartnerRecipesSlider } from '$sliders/sliders';
+import { createEquipmentSlider, createPartnerRecipesSlider } from '$sliders/sliders';
 import { createModal } from '$utils/modal';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -21,12 +21,12 @@ function init() {
   });
 
   createModal();
+  createEquipmentSlider();
   createPartnerRecipesSlider();
+  createCopyButton();
+  animateArticleDivider();
+  animateNav();
 }
-
-createCopyButton();
-animateArticleDivider();
-animateNav();
 
 function initSmoothScroll() {
   // https://github.com/quentinhocde/loconative-scroll
@@ -123,48 +123,55 @@ function createCopyButton() {
   }
 }
 
-window.Webflow ||= [];
-window.Webflow.push(() => {
-  // const mySwiper = new Swiper('.equipment_list-wrap.swiper', {
-  //   modules: [Navigation, Pagination],
-  //   slidesPerView: 4,
-  //   // slidesPerGroup: 1,
-  //   spaceBetween: 16,
-  //   slideToClickedSlide: true,
-  //   keyboard: true,
-  //   // centeredSlides: true,
-  //   slideActiveClass: 'is-active',
-  //   slideDuplicateActiveClass: 'is-active',
-  //   grabCursor: true,
-  //   allowTouchMove: true,
-  //   navigation: {
-  //     nextEl: '.equipment_list-wrap .swiper-next',
-  //     prevEl: '.equipment_list-wrap .swiper-prev',
-  //   },
-  //   breakpoints: {
-  //     0: {
-  //       /* when window >=0px - webflow mobile landscape/portriat */
-  //       slidesPerView: 2,
-  //       slidesPerGroup: 1,
-  //     },
-  //     480: {
-  //       /* when window >=0px - webflow mobile landscape/portriat */
-  //       slidesPerView: 3,
-  //       slidesPerGroup: 1,
-  //     },
-  //     767: {
-  //       /* when window >= 767px - webflow tablet */
-  //       slidesPerView: 4,
-  //       slidesPerGroup: 1,
-  //     },
-  //     992: {
-  //       /* when window >= 988px - webflow desktop */
-  //       slidesPerView: 4,
-  //       slidesPerGroup: 1,
-  //     },
-  //   },
-  // });
-
-  init();
-  // End
+window.addEventListener('DOMContentLoaded', () => {
+  window.Webflow ||= [];
+  window.Webflow.push(() => {
+    init();
+  });
 });
+
+// window.Webflow ||= [];
+// window.Webflow.push(() => {
+// const mySwiper = new Swiper('.equipment_list-wrap.swiper', {
+//   modules: [Navigation, Pagination],
+//   slidesPerView: 4,
+//   // slidesPerGroup: 1,
+//   spaceBetween: 16,
+//   slideToClickedSlide: true,
+//   keyboard: true,
+//   // centeredSlides: true,
+//   slideActiveClass: 'is-active',
+//   slideDuplicateActiveClass: 'is-active',
+//   grabCursor: true,
+//   allowTouchMove: true,
+//   navigation: {
+//     nextEl: '.equipment_list-wrap .swiper-next',
+//     prevEl: '.equipment_list-wrap .swiper-prev',
+//   },
+//   breakpoints: {
+//     0: {
+//       /* when window >=0px - webflow mobile landscape/portriat */
+//       slidesPerView: 2,
+//       slidesPerGroup: 1,
+//     },
+//     480: {
+//       /* when window >=0px - webflow mobile landscape/portriat */
+//       slidesPerView: 3,
+//       slidesPerGroup: 1,
+//     },
+//     767: {
+//       /* when window >= 767px - webflow tablet */
+//       slidesPerView: 4,
+//       slidesPerGroup: 1,
+//     },
+//     992: {
+//       /* when window >= 988px - webflow desktop */
+//       slidesPerView: 4,
+//       slidesPerGroup: 1,
+//     },
+//   },
+// });
+
+// init();
+// End
+// });

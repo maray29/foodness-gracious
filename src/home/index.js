@@ -2,26 +2,11 @@ import { gsap } from 'gsap';
 import { ScrollToPlugin } from 'gsap/ScrollToPlugin';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import LoconativeScroll from 'loconative-scroll';
-import Swiper from 'swiper';
-import { Navigation, Pagination } from 'swiper/modules';
+import { createPartnerRecipesSlider, createTestimonialSlider } from '$sliders/sliders';
 
 import { createModal } from '$utils/modal';
 
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
-
-function init() {
-  initSmoothScroll();
-
-  animateHomeHeaderOnLoad();
-
-  gsap.to('.page-wrapper', {
-    autoAlpha: 1,
-  });
-  animateOnScroll();
-  conceptSectionScrollTo();
-  animateNav();
-  createModal();
-}
 
 // Home header intro animation
 function animateHomeHeaderOnLoad() {
@@ -419,7 +404,7 @@ function createAndAnimateConceptAsset() {
   // loop through each step and add a callback into the timeline, spaced equally (1 second apart just to make things simple)
   steps.forEach((step, i) => {
     const isFirst = i === 0;
-    console.log(isFirst);
+    // console.log(isFirst);
     if (i !== 0) {
       stepsTimeline.add(() => {
         // if scrolling backward, we need to invert which element fades in or out
@@ -474,63 +459,25 @@ function conceptSectionScrollTo() {
   });
 }
 
-window.Webflow ||= [];
-window.Webflow.push(() => {
-  console.log('hello');
-  const mySwiper = new Swiper('.swiper', {
-    modules: [Navigation, Pagination],
-    slidesPerView: 1,
-    // slidesPerGroup: 1,
-    spaceBetween: 16,
-    slideToClickedSlide: true,
-    keyboard: true,
-    centeredSlides: true,
-    slideActiveClass: 'is-active',
-    slideDuplicateActiveClass: 'is-active',
-    loop: true,
-    grabCursor: true,
-    allowTouchMove: true,
-    navigation: {
-      nextEl: '.swiper-next',
-      prevEl: '.swiper-prev',
-    },
-    autoplay: {
-      delay: 5000,
-    },
-    breakpoints: {
-      0: {
-        /* when window >=0px - webflow mobile landscape/portriat */
+function init() {
+  initSmoothScroll();
+  animateHomeHeaderOnLoad();
 
-        slidesPerView: 1,
-        slidesPerGroup: 1,
-        spaceBetween: 8,
-      },
-      480: {
-        /* when window >=0px - webflow mobile landscape/portriat */
+  // gsap.to('.page-wrapper', {
+  //   autoAlpha: 1,
+  // });
 
-        slidesPerView: 1,
-        slidesPerGroup: 1,
-        spaceBetween: 8,
-      },
-      767: {
-        /* when window >= 767px - webflow tablet */
+  animateOnScroll();
+  conceptSectionScrollTo();
+  animateNav();
+  createModal();
+  createPartnerRecipesSlider();
+  createTestimonialSlider();
+}
 
-        slidesPerView: 1,
-        slidesPerGroup: 1,
-        spaceBetween: 8,
-      },
-      992: {
-        /* when window >= 988px - webflow desktop */
-
-        slidesPerView: 1,
-        slidesPerGroup: 1,
-        spaceBetween: 8,
-      },
-    },
+window.addEventListener('DOMContentLoaded', () => {
+  window.Webflow ||= [];
+  window.Webflow.push(() => {
+    init();
   });
-
-  console.log(mySwiper);
-
-  init();
-  // End
 });
